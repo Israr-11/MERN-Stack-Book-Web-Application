@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Home-One button{
+  background-color: #4CAF50; /* Green */
+  border: 1px solid white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+}
+.nav-bar {
+  background-color: #e2a261;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.top-nav li {
+  display: inline-block;
+  padding: 15px 15px 15px 0px;
+}
+
+.title{
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+.wrraper {
+  display: flex;
+}
+.left-content {
+  background-color: grey;
+  flex: 3;
+  min-height: 90vh;
+}
+.side-menu {
+  margin-top: 20px;
+}
+.side-menu li {
+  border-bottom: dashed 1px white;
+}
+.side-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+.right-content {
+  padding: 20px;
+  flex: 9;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+}
+table thead th {
+  vertical-align: bottom;
+}
+
+td,
+th {
+  padding: 0.3rem;
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+table td,
+table th {
+  padding: 0.75rem;
+  vertical-align: top;
+}
+.btn,
+button {
+  display: inline-block;
+  background: red;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: none;
+}
+.btn-del {
+  background: #dc3545;
+}
+form {
+  max-width: 450px;
+  width: 100%;
+  margin: auto;
+}
+label {
+  display: block;
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 30px;
+}
+input {
+  display: block;
+  width: 100%;
+  height: 35px;
+  border: turquoise 2px dashed;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
