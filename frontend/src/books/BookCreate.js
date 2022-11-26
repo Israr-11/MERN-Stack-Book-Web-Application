@@ -12,7 +12,7 @@ function BookCreate() {
     //Controlling POST from frontend
     const submit = (e) => {
         e.preventDefault();
-        fetch('http://localhost:9000/api/books', {
+        fetch('/api/books', {
             method: 'POST',
             headers: { "Content-type": "application/json" },
             body: JSON.stringify({ title, author })

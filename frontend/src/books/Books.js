@@ -7,14 +7,14 @@ function Books() {
 
     //useEffect hook for fetching data from the API 
     useEffect(() => {
-        fetch('http://localhost:9000/api/books')
+        fetch('/api/books')
             .then(res => res.json())
             .then(data => setBooks(data))
     }, [])
 
     //Logic for deleting a book's entry by targeting specific ID
     const del = (id) => {
-        fetch(`http://localhost:9000/api/books/${id}`, {
+        fetch(`/api/books/${id}`, {
             method: 'DELETE'
         });
 

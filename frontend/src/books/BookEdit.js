@@ -15,7 +15,7 @@ function BookEdit() {
 
     //useEffect hook for fetching data and dynamically setting title and author of book
     useEffect(() => {
-        fetch(`http://localhost:9000/api/books/${id}`)
+        fetch(`/api/books/${id}`)
             .then(res => res.json())
             .then(book => {
                 setTitle(book.title);
@@ -27,7 +27,7 @@ function BookEdit() {
     //Its logic for fetching already filled data and Patching or updating data
     const submit = (e) => {
         e.preventDefault();
-        fetch(`http://localhost:9000/api/books/${id}`, {
+        fetch(`/api/books/${id}`, {
             method: 'PATCH',
             headers: { "Content-type": "application/json" },
             body: JSON.stringify({ title, author })
