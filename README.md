@@ -9,7 +9,7 @@ Installation:
 
 npm install 
 
-Note: Both for frontend and backend in the separate terminals of VS Code
+Note: npm install should be done for both for frontend and backend in the separate terminals of VS Code
 
 ## Step 2: Start the App
 
