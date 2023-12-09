@@ -7,9 +7,9 @@ https://user-images.githubusercontent.com/91403838/216272235-07c9438b-94aa-425f-
 
 Installation:
 
-## Both for frontend and backend in the separate terminals of VS Code
-
 npm install 
+
+Note: Both for frontend and backend in the separate terminals of VS Code
 
 ## Step 2: Start the App
 
