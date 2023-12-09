@@ -13,7 +13,7 @@ npm install (## Both for frontend and backend in the separate terminals of VS Co
 
 npm start 
 
-## Firstly, start the server via commands as npm start or npm run dev and then, start the frontend
+## Firstly, start the server via commands such as npm start or npm run dev, and then, start the frontend
 
 Open your favorite browser and navigate to http://localhost:3000 to experience the magic 😎!
 
@@ -27,7 +27,7 @@ npm test
 
 Refer to the running tests documentation for more information.
 
-Additionally, test the backend apis in the postman for better understanding
+## Additionally, test the backend APIs in the Postman for a better understanding
 
 ## Step 4: Build for Production
 
